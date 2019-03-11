@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="149" id="pMd-fq-3tH" customClass="TableViewCell" customModule="_5AppsTask1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="377" height="149"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pMd-fq-3tH" id="NLp-Gd-eKK">
+                <rect key="frame" x="0.0" y="0.0" width="377" height="148.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rbA-t2-e2S">
+                        <rect key="frame" x="0.0" y="0.0" width="377" height="148.5"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rbA-t2-e2S" firstAttribute="leading" secondItem="NLp-Gd-eKK" secondAttribute="leading" id="33m-nx-sII"/>
+                    <constraint firstItem="rbA-t2-e2S" firstAttribute="top" secondItem="NLp-Gd-eKK" secondAttribute="top" id="OPn-no-5fC"/>
+                    <constraint firstAttribute="trailing" secondItem="rbA-t2-e2S" secondAttribute="trailing" id="Qte-K4-7aS"/>
+                    <constraint firstAttribute="bottom" secondItem="rbA-t2-e2S" secondAttribute="bottom" id="usU-GR-MM9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="numberImageView" destination="rbA-t2-e2S" id="QIo-H5-tSt"/>
+            </connections>
+            <point key="canvasLocation" x="88.799999999999997" y="1.3493253373313345"/>
+        </tableViewCell>
+    </objects>
+</document>
