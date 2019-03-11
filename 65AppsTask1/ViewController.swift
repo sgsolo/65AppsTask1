@@ -33,7 +33,7 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: kTableViewCellReuseIdentifier, for: indexPath) as! TableViewCell
-        if let url = URL(string: basePlaceholdUrlString + String(describing: 26)) {
+        if let url = URL(string: basePlaceholdUrlString + String(describing: indexPath.item)) {
             cell.url = url
             self.downloadImage(withURL: url, forCell: cell)
         }
